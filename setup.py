@@ -1,12 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 setup(
     name='sixtyfour',
     version='1.0.0',
-    package_dir={
-        '': 'sixtyfour'
-    },
     py_modules=['sixtyfour'],
     author='Kevin Kennell',
     author_email='kevin@kennell.de',
@@ -17,7 +14,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'sixtyfour = cli:main'
+            'sixtyfour = sixtyfour.cli:main'
         ]
     }
 )
