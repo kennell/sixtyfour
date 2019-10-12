@@ -3,8 +3,8 @@ from setuptools import setup
 
 setup(
     name='sixtyfour',
-    version='1.0.0',
-    py_modules=['sixtyfour'],
+    version='1.0.1',
+    packages=['sixtyfour'],
     author='Kevin Kennell',
     author_email='kevin@kennell.de',
     license='MIT',

@@ -2,7 +2,7 @@
 
 A simplified interface for encoding and decoding base64. Can be used a Python library or a commandline tool.
 
-## Python
+### Python
 
 Encoding and decoding strings
 
@@ -14,9 +14,9 @@ txt = b64_to_str(b64)
 print(txt)  # Hello World
 ```
 
-## CLI
+### CLI
 
-You cat feed `sixtyfour` from stdin or use the `--file` flag to specify a file. In either case you can use the `--decode` flag for decoding.
+You can feed `sixtyfour` from stdin or use the `--file` flag to specify a file. In either case you can use the `--decode` flag for decoding.
 
 ```
 Usage: sixtyfour [OPTIONS]
